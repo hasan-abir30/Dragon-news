@@ -1,4 +1,5 @@
 import Header from "../Components/Header";
+import Latest from "../Components/Latest";
 
 
 const HomeLayout = () => {
@@ -6,6 +7,9 @@ const HomeLayout = () => {
         <div>
             <header>
                 <Header></Header>
+            <section className="w-11/12 mx-auto">
+                <Latest></Latest>
+            </section>
             </header>
             <nav></nav>
             <main></main>
