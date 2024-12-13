@@ -8,7 +8,7 @@ const Header = () => {
             <div>
                 <img className='w-[300px]' src={logo} alt={logo} />
             </div>
-            <p className='text-[18px] text-[#706F6F]'>Journalism Without Fear or Favour</p>
+            <p className='text-[18px]  text-[#706F6F]'>Journalism Without Fear or Favour</p>
             <p>{ dayjs().format('MMMM D, YYYY') }</p>
         </div>
     );
