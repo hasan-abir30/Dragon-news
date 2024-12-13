@@ -1,5 +1,8 @@
 import Header from "../Components/Header";
 import Latest from "../Components/Latest";
+import Center from "../Components/MainLayouts/Center";
+import LeftSide from "../Components/MainLayouts/LeftSide";
+import RightSide from "../Components/MainLayouts/RightSide";
 import NavBar from "../Components/NavBar";
 
 
@@ -20,9 +23,15 @@ const HomeLayout = () => {
             </nav>
             {/* main section start here */}
             <main className="w-11/12 mx-auto pt-3 grid grid-cols-12">
-                <aside className="col-span-3">left </aside>
-                <section className="col-span-6">main</section>
-                <aside className="col-span-3">Right</aside>
+                <aside className="col-span-3">
+                    <LeftSide></LeftSide>
+                </aside>
+                <section className="col-span-6">
+                    <Center></Center>
+                </section>
+                <aside className="col-span-3">
+                    <RightSide></RightSide>
+                </aside>
             </main>
         </div>
     );
