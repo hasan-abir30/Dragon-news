@@ -2,7 +2,8 @@ import Header from "../Components/Header";
 import Latest from "../Components/Latest";
 import Center from "../Components/MainLayouts/Center";
 import LeftSide from "../Components/MainLayouts/LeftSide";
-import RightSide from "../Components/MainLayouts/RightSide";
+import Right from "../Components/MainLayouts/Right";
+
 import NavBar from "../Components/NavBar";
 
 
@@ -30,7 +31,7 @@ const HomeLayout = () => {
                     <Center></Center>
                 </section>
                 <aside className="col-span-3">
-                    <RightSide></RightSide>
+                    <Right></Right>
                 </aside>
             </main>
         </div>

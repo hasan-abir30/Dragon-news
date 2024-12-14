@@ -5,10 +5,10 @@ const NavBar = () => {
     return (
         <div className="flex justify-between items-center">
             <div></div>
-            <div className="space-x-2">
-                <Link >Home</Link>
-                <Link >About</Link>
-                <Link >Career</Link>
+            <div className="space-x-5">
+                <Link to='/' >Home</Link>
+                <Link to='/about'>About</Link>
+                <Link to='/career'>Career</Link>
             </div>
             <div className="login flex items-center gap-2">
                 <div>
