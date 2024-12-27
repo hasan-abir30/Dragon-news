@@ -20,7 +20,7 @@ const LeftSide = () => {
             <div className="flex flex-col gap-2 ">
                 {
                     categories.map(category => 
-                    <NavLink to={`/category/${category.category_id}`} className="btn font-semibold text-xl" key={category.category_id}>{category.category_name}
+                    <NavLink to={`/category/${category.category_id}`} className="btn font-semibold text-xl text-[#403F3F]" key={category.category_id}>{category.category_name}
                     </NavLink>)
                 }
             </div>
